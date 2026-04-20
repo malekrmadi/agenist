@@ -1,0 +1,28 @@
+.g-logo {
+  display: inline-flex;
+  align-items: center;
+  transition: transform var(--t-fast), filter var(--t-fast);
+}
+.g-logo:hover { transform: translateY(-1px); }
+
+.g-logo__img {
+  display: block;
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 18px rgba(191, 144, 0, 0.18));
+  transition: filter var(--t-med), transform var(--t-fast);
+}
+.g-logo:hover .g-logo__img {
+  filter: drop-shadow(0 10px 24px rgba(191, 144, 0, 0.32));
+}
+
+/* Variante claire (sur fond sombre) */
+.g-logo--light .g-logo__img {
+  filter: brightness(0) invert(1) drop-shadow(0 6px 20px rgba(191, 144, 0, 0.45));
+  opacity: 0.97;
+}
+
+@media (max-width: 600px) {
+  .g-logo__img { height: 50px; }
+}
