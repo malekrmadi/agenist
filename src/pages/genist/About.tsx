@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { PageMeta } from "@/components/seo/PageMeta";
+import { SEO } from "@/components/seo/seo-pages";
 import teamCollab from "@/assets/team-collab.jpg";
 import "./SubPages.css";
 
@@ -19,6 +21,7 @@ const why = [
 export default function About() {
   return (
     <>
+      <PageMeta title={SEO.about.title} description={SEO.about.description} />
       <section className="g-page-hero g-page-hero--image">
         <img src={teamCollab} alt="" className="g-page-hero__img" width={1600} height={1200} />
         <div className="g-page-hero__veil" />

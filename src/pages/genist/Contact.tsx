@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { PageMeta } from "@/components/seo/PageMeta";
+import { SEO } from "@/components/seo/seo-pages";
 import "./SubPages.css";
 
 const faqs = [
@@ -35,6 +37,7 @@ export default function Contact() {
 
   return (
     <>
+      <PageMeta title={SEO.contact.title} description={SEO.contact.description} />
       <section className="g-page-hero g-page-hero--compact">
         <div className="g-container g-text-center">
           <span className="g-eyebrow">Demande de démo</span>

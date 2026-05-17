@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { PageMeta } from "@/components/seo/PageMeta";
+import { SEO } from "@/components/seo/seo-pages";
 import heroBg from "@/assets/hero-bg.jpg";
 import deskFlat from "@/assets/desk-flat.jpg";
 import ctaBg from "@/assets/cta-bg.jpg";
@@ -39,6 +41,7 @@ const I = {
 export default function Home() {
   return (
     <>
+      <PageMeta title={SEO.home.title} description={SEO.home.description} />
       {/* HERO */}
       <section className="g-hero">
         <div className="g-hero__bg" aria-hidden="true">

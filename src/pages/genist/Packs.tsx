@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { PageMeta } from "@/components/seo/PageMeta";
+import { SEO } from "@/components/seo/seo-pages";
 import "./SubPages.css";
 
 const packs = [
@@ -49,6 +51,7 @@ const packs = [
 export default function Packs() {
   return (
     <>
+      <PageMeta title={SEO.packs.title} description={SEO.packs.description} />
       <section className="g-page-hero">
         <div className="g-container g-text-center">
           <span className="g-eyebrow">Packs métiers</span>

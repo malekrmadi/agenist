@@ -1,0 +1,16 @@
+# GENIST
+> Plateforme tout-en-un pour PME : CRM, facturation, projets, automatisations et finance.
+
+## Pages
+- Accueil: https://genist.fr/
+- Fonctionnalités: https://genist.fr/fonctionnalites
+- Packs métiers: https://genist.fr/packs
+- À propos: https://genist.fr/a-propos
+- Contact / démo: https://genist.fr/contact
+
+## Produit
+GENIST centralise la gestion commerciale et opérationnelle des PME françaises.
+Offres : GENIST Essentiel et GENIST Excellence (avec IA).
+
+## Contact
+Demande de démo gratuite sur la page Contact.

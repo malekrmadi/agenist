@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { PageMeta } from "@/components/seo/PageMeta";
+import { SEO } from "@/components/seo/seo-pages";
 import featCrm from "@/assets/feat-crm.jpg";
 import featBilling from "@/assets/feat-billing.jpg";
 import featProjects from "@/assets/feat-projects.jpg";
@@ -98,6 +100,7 @@ const features = [
 export default function Features() {
   return (
     <>
+      <PageMeta title={SEO.features.title} description={SEO.features.description} />
       <section className="g-page-hero">
         <div className="g-container g-text-center">
           <span className="g-eyebrow">Fonctionnalités</span>
